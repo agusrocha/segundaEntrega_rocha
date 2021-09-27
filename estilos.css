@@ -1,0 +1,120 @@
+/*RESETEO*/
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+/*ESTRUCTURA*/
+body {
+    font-family: 'Dosis', sans-serif;
+    width: 100%;
+}
+a {
+    text-decoration: none;
+    color: black;
+}
+/* HEADER/MENU */
+.headerMenu{
+    display: flex;
+    justify-content: space-around;
+    height: auto;
+}
+/* HEADER */
+header{
+    width:40%;
+    text-align: center;
+}
+.divHeader{
+    padding: 15px;
+}
+.divHeader img{
+    width: 90%;
+}
+
+/* MENU */
+.navMenu {
+    background-color: rgb(98, 235, 189);
+    font-size: 20px;
+    font-weight: bold;
+    width: 60%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.navMenu ul{
+    list-style: none;
+    margin: 10px;
+}
+.titulo{
+    margin: 20px;
+}
+.titulo h1{
+    font-size: 28px;
+    text-align: center;
+}
+/* SECCION PRINCIPAL */
+
+h2{
+    font-size: 25px;
+    margin: 25px 25px;
+    text-align: center;
+}
+form{
+    background-color: rgb(183, 250, 203);
+    border: black solid 5px;
+    padding: 10px;
+}
+/* FORMULARIO */
+.formulario{
+    width: 80%;
+    margin: auto;
+}
+label {
+    font-size: 20px;
+    font-weight: bold;
+}
+input{
+    margin: 10px 0;
+    padding-left: 10px;
+}
+.caja{
+    width: 100%;
+    border-radius: 8px;
+    border: solid 2px rgb(0, 56, 0);
+    height: 30px;
+}
+.asterisco{
+    color: red;
+}
+.telefonico{
+    color: grey;
+    font-size: 14px;
+    margin: 20px;
+}
+.generoDiv{
+    margin-top: 10px;
+}
+.genero{
+    font-size: 16px;
+}
+select{
+    margin-top: 10px;
+}
+button{
+    padding: 10px;
+    border-radius: 8px;
+    background-color: black;
+    color: white;
+    letter-spacing: 0.5px;
+    border:groove;
+}
+/* FOOTER */
+footer{
+    height: auto;
+    background-image: linear-gradient(45deg, #62ebbd, #232927);
+    margin-top: 20px;
+    font-size: 20px;
+    padding: 10px;
+    font-style: italic;
+}
+
